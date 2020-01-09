@@ -41,6 +41,7 @@ dependencies {
     // api 'com.segment.analytics.android:analytics:4.+'
     // For now using forked version of analytics-android that fixes aliasing
     // TODO: Use official analytics-android depency once fix available.
+    // See for more info: https://github.com/segmentio/analytics-android/issues/633
     api 'com.github.northone-banking:analytics-android:19b5d09'
 
     api 'com.facebook.react:react-native:+'
